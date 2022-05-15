@@ -5,29 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <section class="bg-[url('./images/bg-mobile.svg')] bg-cover bg-[#674BAF] h-screen p-8 relative">
+    <div class="">
+      <img src="./images/logo.svg" alt="" class="h-8 mb-8 sm:mb-16 md:mb-8 ">
+    </div>
+    <div class="lg:grid grid-cols-2 items-center absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:w-full lg:px-8 lg:gap-[2rem]">
+      <div class="">
+        <img src="./images/illustration-mockups.svg" alt="" class="mb-8 sm:mb-16 md:mb-8 ">
+      </div>
+      <div class="xl:pr-[10rem]">
+        <h1 class="text-white text-3xl mb-2 sm:mb-6 ">Build The Community Your Fans Will Love</h1>
+        <p class="text-white mb-2 sm:mb-6">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <div class="sm:mb-14 md:mb-8">
+          <button class=" text-center bg-white rounded-3xl px-20 py-2 mb-4">Register</button>
+        </div>
+        
+      </div>
+      
+    </div>
+    <div class="flex justify-center items-center gap-4 absolute bottom-0 right-0">
+      <a href="" class=""><ion-icon name="logo-facebook" class="text-white p-2 border-2 border-solid rounded-full "></ion-icon></a>
+      <a href="" class=""><ion-icon name="logo-twitter" class="text-white p-2 border-2 border-solid rounded-full"></ion-icon></a>
+      <a href="" class=""><ion-icon name="logo-instagram" class="text-white p-2 border-2 border-solid rounded-full"></ion-icon></a>
+    </div>
+  </section>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
