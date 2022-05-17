@@ -12,29 +12,30 @@
   
 </head>
 <body>
-  <section class="bg-[url('./images/bg-mobile.svg')] bg-cover bg-[#674BAF] h-screen p-8 relative">
-    <div class="">
-      <img src="./images/logo.svg" alt="" class="h-8 mb-8 sm:mb-16 md:mb-8 ">
-    </div>
-    <div class="lg:grid grid-cols-2 items-center absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:w-full lg:px-8 lg:gap-[2rem]">
-      <div class="">
-        <img src="./images/illustration-mockups.svg" alt="" class="mb-8 sm:mb-16 md:mb-8 ">
+  <section class="bg-[url('./images/bg-mobile.svg')] bg-cover bg-[#674BAF] h-screen lg:bg-[url('./images/bg-desktop.svg')] ">
+    <div class="max-w-[80rem] mx-auto p-8 ">
+      <div class="py-[4rem]">
+          <img src="./images/logo.svg" alt="" class="">
       </div>
-      <div class="xl:pr-[10rem]">
-        <h1 class="text-white text-3xl mb-2 sm:mb-6 ">Build The Community Your Fans Will Love</h1>
-        <p class="text-white mb-2 sm:mb-6">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-        <div class="sm:mb-14 md:mb-8">
-          <button class=" text-center bg-white rounded-3xl px-20 py-2 mb-4">Register</button>
+      <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-8 justify-items-center lg:mt-[8rem]">
+        <div class="">
+          <img src="./images/illustration-mockups.svg" alt="" class="">
         </div>
-        
+        <div class="lg:pr-[8rem] text-white flex flex-col">
+          <h1 class="lg:text-4xl xl:text-5xl mb-6 sm:text-center lg:text-left">Build The Community Your Fans Will Love</h1>
+          <p class="opacity-50 mb-4 sm:text-center lg:text-left">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <div class="bg-white rounded-3xl py-2 my-12 text-black self-center lg:self-start w-[14rem] text-center">
+            <button class="">Register</button>
+          </div>
+        </div>
       </div>
-      
+      <div class="flex lg:justify-end gap-4 justify-center ">
+        <a href="" class=""><ion-icon name="logo-facebook" class="text-white p-2 border-2 border-solid rounded-full "></ion-icon></a>
+        <a href="" class=""><ion-icon name="logo-twitter" class="text-white p-2 border-2 border-solid rounded-full"></ion-icon></a>
+        <a href="" class=""><ion-icon name="logo-instagram" class="text-white p-2 border-2 border-solid rounded-full"></ion-icon></a>
+      </div>
     </div>
-    <div class="flex justify-center items-center gap-4 absolute bottom-0 right-0">
-      <a href="" class=""><ion-icon name="logo-facebook" class="text-white p-2 border-2 border-solid rounded-full "></ion-icon></a>
-      <a href="" class=""><ion-icon name="logo-twitter" class="text-white p-2 border-2 border-solid rounded-full"></ion-icon></a>
-      <a href="" class=""><ion-icon name="logo-instagram" class="text-white p-2 border-2 border-solid rounded-full"></ion-icon></a>
-    </div>
+    
   </section>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
